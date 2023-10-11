@@ -11,7 +11,7 @@ import socket
 # This is for the server side
 def server_side():
     
-    # We can get the hostname and specify the port number
+    # We can get the hostname and specify the port number (above 1024)
     host = socket.gethostname()
     port = 12345
     
